@@ -1,0 +1,11 @@
+Model Information:
+* title:	Neco Arc (My Version)
+* source:	https://sketchfab.com/3d-models/neco-arc-my-version-cd7eaae12c2941d9959e2cadc7574701
+* author:	tsukii (https://sketchfab.com/buttercup23)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Neco Arc (My Version)" (https://sketchfab.com/3d-models/neco-arc-my-version-cd7eaae12c2941d9959e2cadc7574701) by tsukii (https://sketchfab.com/buttercup23) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

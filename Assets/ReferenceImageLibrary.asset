@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5526409299488985816
+  m_GuidHigh: 10402639367413030585
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5105067967840633964
+      m_GuidHigh: 4179679597729466272
+    m_SerializedTextureGuid:
+      m_GuidLow: 10620666944123639321
+      m_GuidHigh: 5321378326580164379
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: one
+    m_Texture: {fileID: 2800000, guid: a2391619305093641bf745e76455d949, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5614536875989528320
+      m_GuidHigh: 6803812771210326920
+    m_SerializedTextureGuid:
+      m_GuidLow: 7432155198464145161
+      m_GuidHigh: 11879339611203929770
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: two
+    m_Texture: {fileID: 2800000, guid: 9807370951c66724aa8609dc6fe4dba4, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5180575871205384756
+      m_GuidHigh: 4639523185673249690
+    m_SerializedTextureGuid:
+      m_GuidLow: 1987474850744780855
+      m_GuidHigh: 17766880885394630971
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: earth
+    m_Texture: {fileID: 2800000, guid: beaa4837edd81b943be99f4408a490f6, type: 3}
