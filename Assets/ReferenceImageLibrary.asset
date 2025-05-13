@@ -18,26 +18,6 @@ MonoBehaviour:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5105067967840633964
-      m_GuidHigh: 4179679597729466272
-    m_SerializedTextureGuid:
-      m_GuidLow: 10620666944123639321
-      m_GuidHigh: 5321378326580164379
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: one
-    m_Texture: {fileID: 2800000, guid: a2391619305093641bf745e76455d949, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 5614536875989528320
-      m_GuidHigh: 6803812771210326920
-    m_SerializedTextureGuid:
-      m_GuidLow: 7432155198464145161
-      m_GuidHigh: 11879339611203929770
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: two
-    m_Texture: {fileID: 2800000, guid: 9807370951c66724aa8609dc6fe4dba4, type: 3}
-  - m_SerializedGuid:
       m_GuidLow: 5180575871205384756
       m_GuidHigh: 4639523185673249690
     m_SerializedTextureGuid:
@@ -47,3 +27,23 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: earth
     m_Texture: {fileID: 2800000, guid: beaa4837edd81b943be99f4408a490f6, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4916119785035430858
+      m_GuidHigh: 14199665984130242953
+    m_SerializedTextureGuid:
+      m_GuidLow: 3000570071902751871
+      m_GuidHigh: 732736308407217017
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: AND_GATE
+    m_Texture: {fileID: 2800000, guid: 2b6e8c7f2a9529a479aba450ca332b0a, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4900176836689615689
+      m_GuidHigh: 12997452231289047689
+    m_SerializedTextureGuid:
+      m_GuidLow: 8121234053926677154
+      m_GuidHigh: 1153362625342320457
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: NOT_GATE
+    m_Texture: {fileID: 2800000, guid: 0a1aeaa26b5870b449afbd6c32910110, type: 3}
