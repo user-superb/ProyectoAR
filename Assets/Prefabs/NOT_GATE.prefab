@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7774282624429526974}
+  - component: {fileID: 2040779713225264860}
   m_Layer: 0
   m_Name: NOT_GATE
   m_TagString: Untagged
@@ -32,6 +33,20 @@ Transform:
   - {fileID: 2125408072413476710}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2040779713225264860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3554522526499506383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6789a1e824bdd2748883ccd36ea6e142, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputA: 0
+  inputB: 0
 --- !u!1001 &2118476474519966843
 PrefabInstance:
   m_ObjectHideFlags: 0
