@@ -699,9 +699,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ImageManager: {fileID: 1969498401}
   ArPrefabs:
-  - {fileID: 3554522526499506383, guid: 9932b8b5d0b202145812c113919374cc, type: 3}
-  - {fileID: 3554522526499506383, guid: e9d3442f9b11ed64fa423076c933faf5, type: 3}
   - {fileID: 3554522526499506383, guid: d6d89ac235163ac47b6c81680fb2a129, type: 3}
+  - {fileID: 3554522526499506383, guid: e9d3442f9b11ed64fa423076c933faf5, type: 3}
+  - {fileID: 3554522526499506383, guid: d848be1e3b4d9b44c8a175d66215b22b, type: 3}
+  - {fileID: 3554522526499506383, guid: 3599a8085c812ad4fbe3a1dad0d32691, type: 3}
+  - {fileID: 3554522526499506383, guid: 9932b8b5d0b202145812c113919374cc, type: 3}
 --- !u!1 &1969679235
 GameObject:
   m_ObjectHideFlags: 0
