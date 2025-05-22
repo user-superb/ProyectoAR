@@ -62,9 +62,9 @@ Transform:
   m_GameObject: {fileID: 4048342457703683100}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 0.02, y: 0.015, z: -0.1}
-  m_LocalScale: {x: 0.29999998, y: 2, z: 0.1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0.099903, y: 0.0088526, z: -0.49952}
+  m_LocalScale: {x: 1.49856, y: 9.9904, z: 0.49952003}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7774282624429526974}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
@@ -148,9 +148,9 @@ Transform:
   m_GameObject: {fileID: 8671301610086865442}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 0, y: 0.015, z: 0.1}
-  m_LocalScale: {x: 0.29999998, y: 2, z: 0.1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0.0088526, z: 0.49952}
+  m_LocalScale: {x: 1.49856, y: 9.9904, z: 0.49952003}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7774282624429526974}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
@@ -234,9 +234,9 @@ Transform:
   m_GameObject: {fileID: 8866361291268896691}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: -0.02, y: 0.015, z: -0.1}
-  m_LocalScale: {x: 0.29999998, y: 2, z: 0.1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -0.099903, y: 0.0088526, z: -0.49952}
+  m_LocalScale: {x: 1.49856, y: 9.9904, z: 0.49952003}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7774282624429526974}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
@@ -309,17 +309,17 @@ PrefabInstance:
     - target: {fileID: -3736103955076234904, guid: 49261535961c016448f36a241cf8e5c7,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.050000004
+      value: 0.24976003
       objectReference: {fileID: 0}
     - target: {fileID: -3736103955076234904, guid: 49261535961c016448f36a241cf8e5c7,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.050000004
+      value: 0.24976003
       objectReference: {fileID: 0}
     - target: {fileID: -3736103955076234904, guid: 49261535961c016448f36a241cf8e5c7,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.050000004
+      value: 0.24976003
       objectReference: {fileID: 0}
     - target: {fileID: -3736103955076234904, guid: 49261535961c016448f36a241cf8e5c7,
         type: 3}
@@ -329,7 +329,7 @@ PrefabInstance:
     - target: {fileID: -3736103955076234904, guid: 49261535961c016448f36a241cf8e5c7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.066075
       objectReference: {fileID: 0}
     - target: {fileID: -3736103955076234904, guid: 49261535961c016448f36a241cf8e5c7,
         type: 3}
