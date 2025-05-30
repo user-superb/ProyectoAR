@@ -626,6 +626,8 @@ GameObject:
   - component: {fileID: 1969498402}
   - component: {fileID: 1969498401}
   - component: {fileID: 1969498405}
+  - component: {fileID: 1969498407}
+  - component: {fileID: 1969498406}
   m_Layer: 0
   m_Name: XR Origin (Mobile AR)
   m_TagString: Untagged
@@ -717,6 +719,35 @@ MonoBehaviour:
     imagePrefab: {fileID: 3554522526499506383, guid: 9932b8b5d0b202145812c113919374cc,
       type: 3}
   m_ImageLibrary: {fileID: 11400000, guid: 165b7b1d99816b249ad300727fdfaa99, type: 2}
+--- !u!114 &1969498406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969498399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82a9931713ad2747b2626d8c668eb89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  managerDeListeners: {fileID: 1969498407}
+--- !u!114 &1969498407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969498399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <trackablesChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  m_RaycastPrefab: {fileID: 0}
 --- !u!1 &1969679235
 GameObject:
   m_ObjectHideFlags: 0
