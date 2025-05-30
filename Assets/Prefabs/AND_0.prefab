@@ -48,9 +48,10 @@ GameObject:
   - component: {fileID: 3432453633641545446}
   - component: {fileID: 4837151234271029257}
   - component: {fileID: 841914241160706344}
+  - component: {fileID: 8966002682888543503}
   m_Layer: 0
   m_Name: In2
-  m_TagString: Untagged
+  m_TagString: entrada
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -173,6 +174,20 @@ CapsuleCollider:
   m_Height: 0.09985964
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8966002682888543503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4048342457703683100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bcd4a84ec0bdac41982a08bf31da211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  modifiedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!1 &8671301610086865442
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,9 +287,10 @@ GameObject:
   - component: {fileID: 2706313731152332755}
   - component: {fileID: 5995295268646095342}
   - component: {fileID: 2506526981848990734}
+  - component: {fileID: 6347182800111112460}
   m_Layer: 0
   m_Name: In1
-  m_TagString: Untagged
+  m_TagString: entrada
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -397,6 +413,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6347182800111112460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8866361291268896691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bcd4a84ec0bdac41982a08bf31da211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  modifiedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!1001 &6127849551278716853
 PrefabInstance:
   m_ObjectHideFlags: 0

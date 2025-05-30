@@ -99,9 +99,10 @@ GameObject:
   - component: {fileID: 7008377393351927476}
   - component: {fileID: 3544948735625064861}
   - component: {fileID: 9181534108761837149}
+  - component: {fileID: 65189064713139764}
   m_Layer: 0
   m_Name: In1
-  m_TagString: Untagged
+  m_TagString: entrada
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -224,6 +225,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &65189064713139764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980091445985868942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bcd4a84ec0bdac41982a08bf31da211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  modifiedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!1 &2750750170876259277
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,9 +252,10 @@ GameObject:
   - component: {fileID: 4207484361616395898}
   - component: {fileID: 3557358549219796191}
   - component: {fileID: 112142486640996695}
+  - component: {fileID: 2680087911470166812}
   m_Layer: 0
   m_Name: In2
-  m_TagString: Untagged
+  m_TagString: entrada
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -362,6 +378,20 @@ CapsuleCollider:
   m_Height: 0.09985964
   m_Direction: 1
   m_Center: {x: -0.000000007450581, y: 0, z: 0.000000016763806}
+--- !u!114 &2680087911470166812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2750750170876259277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bcd4a84ec0bdac41982a08bf31da211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  modifiedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!1 &3554522526499506383
 GameObject:
   m_ObjectHideFlags: 0
