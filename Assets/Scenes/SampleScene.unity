@@ -625,7 +625,9 @@ GameObject:
   - component: {fileID: 1969498403}
   - component: {fileID: 1969498402}
   - component: {fileID: 1969498401}
-  - component: {fileID: 1969498404}
+  - component: {fileID: 1969498405}
+  - component: {fileID: 1969498407}
+  - component: {fileID: 1969498406}
   m_Layer: 0
   m_Name: XR Origin (Mobile AR)
   m_TagString: Untagged
@@ -685,7 +687,7 @@ Transform:
   - {fileID: 1495966753}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1969498404
+--- !u!114 &1969498405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -694,14 +696,58 @@ MonoBehaviour:
   m_GameObject: {fileID: 1969498399}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc88f4b2652f0ef42ad5c607b2969fdc, type: 3}
+  m_Script: {fileID: 11500000, guid: 84c5bf5e0a9932f438330061389e4977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ImageManager: {fileID: 1969498401}
-  ArPrefabs:
-  - {fileID: 3554522526499506383, guid: 9932b8b5d0b202145812c113919374cc, type: 3}
-  - {fileID: 3554522526499506383, guid: e9d3442f9b11ed64fa423076c933faf5, type: 3}
-  - {fileID: 3554522526499506383, guid: d6d89ac235163ac47b6c81680fb2a129, type: 3}
+  m_PrefabsList:
+  - imageGuid: 97282234-1a4e-47e5-9a23-3e91c1e56240
+    imagePrefab: {fileID: 3554522526499506383, guid: d6d89ac235163ac47b6c81680fb2a129,
+      type: 3}
+  - imageGuid: d44e7bca-90e5-4439-89d9-47c1fa580fc5
+    imagePrefab: {fileID: 3554522526499506383, guid: 9932b8b5d0b202145812c113919374cc,
+      type: 3}
+  - imageGuid: e77b5b49-ecde-4400-898a-17dff03960b4
+    imagePrefab: {fileID: 3554522526499506383, guid: e9d3442f9b11ed64fa423076c933faf5,
+      type: 3}
+  - imageGuid: 32f4c643-db32-4e99-9730-dc6c7ce06a61
+    imagePrefab: {fileID: 3554522526499506383, guid: 3599a8085c812ad4fbe3a1dad0d32691,
+      type: 3}
+  - imageGuid: 26ba2ff0-27cb-45c6-a057-c519181adc6a
+    imagePrefab: {fileID: 3554522526499506383, guid: d848be1e3b4d9b44c8a175d66215b22b,
+      type: 3}
+  - imageGuid: d1c96d1a-35d6-4d83-a364-4d73d0fcae3d
+    imagePrefab: {fileID: 3554522526499506383, guid: 9932b8b5d0b202145812c113919374cc,
+      type: 3}
+  m_ImageLibrary: {fileID: 11400000, guid: 165b7b1d99816b249ad300727fdfaa99, type: 2}
+--- !u!114 &1969498406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969498399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82a9931713ad2747b2626d8c668eb89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  managerDeListeners: {fileID: 1969498407}
+--- !u!114 &1969498407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969498399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <trackablesChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  m_RaycastPrefab: {fileID: 0}
 --- !u!1 &1969679235
 GameObject:
   m_ObjectHideFlags: 0

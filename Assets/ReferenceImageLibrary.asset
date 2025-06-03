@@ -31,19 +31,49 @@ MonoBehaviour:
       m_GuidLow: 4916119785035430858
       m_GuidHigh: 14199665984130242953
     m_SerializedTextureGuid:
-      m_GuidLow: 3000570071902751871
-      m_GuidHigh: 732736308407217017
+      m_GuidLow: 2167526832703602679
+      m_GuidHigh: 16593922196810789402
     m_Size: {x: 0.05, y: 0.05}
     m_SpecifySize: 1
-    m_Name: AND_GATE
-    m_Texture: {fileID: 2800000, guid: 2b6e8c7f2a9529a479aba450ca332b0a, type: 3}
+    m_Name: AND_0
+    m_Texture: {fileID: 2800000, guid: 986cfff79a2b1e141a7260d3517449e6, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 4900176836689615689
       m_GuidHigh: 12997452231289047689
     m_SerializedTextureGuid:
-      m_GuidLow: 8121234053926677154
-      m_GuidHigh: 1153362625342320457
+      m_GuidLow: 5333616281120460050
+      m_GuidHigh: 17043675630297278249
     m_Size: {x: 0.05, y: 0.05}
     m_SpecifySize: 1
-    m_Name: NOT_GATE
-    m_Texture: {fileID: 2800000, guid: 0a1aeaa26b5870b449afbd6c32910110, type: 3}
+    m_Name: NOT_0
+    m_Texture: {fileID: 2800000, guid: bc6ccd12cfbf4a0429e7d93aaf4c87ec, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5663799015044859459
+      m_GuidHigh: 7019669794217275543
+    m_SerializedTextureGuid:
+      m_GuidLow: 3158361037535060228
+      m_GuidHigh: 17207374835055131064
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: OR_0
+    m_Texture: {fileID: 2800000, guid: 42b62104c0a12bd4b8f974703ee0ccee, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5027749787487318000
+      m_GuidHigh: 7700058153710606240
+    m_SerializedTextureGuid:
+      m_GuidLow: 13147210660485807827
+      m_GuidHigh: 688982464733469593
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: XOR_0
+    m_Texture: {fileID: 2800000, guid: 557c3ed34670b674995be9bae6c18f09, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5585367159628459290
+      m_GuidHigh: 4444767854479107235
+    m_SerializedTextureGuid:
+      m_GuidLow: 14894575868123321050
+      m_GuidHigh: 9096015878189335883
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: AND_1
+    m_Texture: {fileID: 2800000, guid: 539892da29d6ceb44bc5c99a3f8a3b7e, type: 3}

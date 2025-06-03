@@ -6,6 +6,17 @@ using UnityEngine.XR.ARSubsystems;
 
 public class ARPlacePrefabOnImage : MonoBehaviour
 {
+    enum Compuertas
+    {
+        AND,
+        OR,
+        XOR,
+        NOT,
+        NAND,
+        NOR,
+        XNOR
+    }
+
     [SerializeField]
     ARTrackedImageManager m_ImageManager;
 
