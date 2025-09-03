@@ -24,7 +24,7 @@ public class LogicaTactil : MonoBehaviour
 #endif
     }
 
-    void ProcesarToque(Vector2 posicion)
+  /*  void ProcesarToque(Vector2 posicion)
     {
         Ray ray = Camera.main.ScreenPointToRay(posicion);
         if (Physics.Raycast(ray, out RaycastHit hit))
@@ -44,5 +44,34 @@ public class LogicaTactil : MonoBehaviour
         {
             Debug.Log("Raycast no golpeó nada.");
         }
+    }*/
+
+    void ProcesarToque(Vector2 posicion)
+{
+    Ray ray = Camera.main.ScreenPointToRay(posicion);
+
+    // Layer que solo afecta a estos raycast
+    int layerMask = LayerMask.GetMask("CapsuleOnly");
+
+    if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, layerMask))
+    {
+        IN = hit.collider.GetComponent<ComportamientoEntradas>();
+        if (IN != null)
+        {
+            Debug.Log("Objeto tocado: " + hit.collider.gameObject.name);
+            IN.onTouch();
+        }
+        else
+        {
+            Debug.Log("Objeto tocado no tiene ComportamientoEntradas: " + hit.collider.gameObject.name);
+        }
     }
+    else
+    {
+        Debug.Log("Raycast no golpeó nada en la capa CapsuleOnly.");
+    }
+}
+
+
+
 }
