@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 7555593824156695825}
   - component: {fileID: 7737503289051240799}
-  - component: {fileID: 7203665376163611550}
-  m_Layer: 0
+  - component: {fileID: 7854278387203293376}
+  - component: {fileID: 2703743466746005802}
+  m_Layer: 6
   m_Name: Zona-Input2
-  m_TagString: Untagged
+  m_TagString: ZonaIn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2985931571227995168}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0, z: -1}
+  m_LocalPosition: {x: 0.522, y: 0, z: -1.046}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -54,7 +55,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.25, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7203665376163611550
+--- !u!114 &7854278387203293376
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,9 +64,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 2985931571227995168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9381b15f0652e54abc3abae0a2616d2, type: 3}
+  m_Script: {fileID: 11500000, guid: e0a6d36efb0ec8c4aa278c52f8131138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &2703743466746005802
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2985931571227995168}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &3554522526499506383
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,10 +295,11 @@ GameObject:
   m_Component:
   - component: {fileID: 5879369206139912420}
   - component: {fileID: 2750069671452749086}
-  - component: {fileID: 7690315798098081052}
-  m_Layer: 0
+  - component: {fileID: 2488395879713591997}
+  - component: {fileID: 1228422130083585301}
+  m_Layer: 6
   m_Name: Zona-Input1
-  m_TagString: Untagged
+  m_TagString: ZonaIn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -284,7 +313,7 @@ Transform:
   m_GameObject: {fileID: 4379305508302085998}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0, z: -1}
+  m_LocalPosition: {x: -0.528, y: 0, z: -1.061}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -311,7 +340,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.25, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7690315798098081052
+--- !u!114 &2488395879713591997
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -320,9 +349,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 4379305508302085998}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d1fddf51fb2abe4aaf91e654c6bb99e, type: 3}
+  m_Script: {fileID: 11500000, guid: e0a6d36efb0ec8c4aa278c52f8131138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &1228422130083585301
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4379305508302085998}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8671301610086865442
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,8 +475,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4423116890941456873}
   - component: {fileID: 751764259460463873}
-  - component: {fileID: 5349512811498315496}
-  m_Layer: 0
+  - component: {fileID: 5266438127705431450}
+  m_Layer: 6
   m_Name: Zona-output
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,18 +519,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 0.25, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5349512811498315496
-MonoBehaviour:
+--- !u!54 &5266438127705431450
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8744848563993068491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d1fddf51fb2abe4aaf91e654c6bb99e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8866361291268896691
 GameObject:
   m_ObjectHideFlags: 0

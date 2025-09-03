@@ -14,8 +14,7 @@ public class UpdaterLineRenderer : MonoBehaviour
     {
         line = GetComponent<LineRenderer>();
         line.positionCount = 4;
-
-        transformer = GetComponent<Transform>();
+        transformer = transform.GetChild(1);
     }
 
     // Update is called once per frame
@@ -27,7 +26,10 @@ public class UpdaterLineRenderer : MonoBehaviour
                 line.enabled = true;
             if (pointB != null)
             {
-                Vector3 a = transformer.position;
+
+                
+                Vector3 a = new Vector3(transformer.position.x,transformer.position.y,transformer.position.z+(float) 0.5);
+
                 Vector3 b = pointB.transform.position;
 
                 Vector3 inter1 = new Vector3(b.x, a.y, a.z); // mueve en X

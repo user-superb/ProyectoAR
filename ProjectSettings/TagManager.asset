@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - entrada
+<<<<<<< HEAD
+=======
+  - ZonaIn
+>>>>>>> main
   layers:
   - Default
   - TransparentFX
@@ -12,7 +16,7 @@ TagManager:
   - CapsuleOnly
   - Water
   - UI
-  - 
+  - Zonas
   - 
   - 
   - 
