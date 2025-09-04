@@ -1,8 +1,7 @@
 using UnityEngine;
-using System.Collections.Generic;
+
 public class InZone : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         gameObject.layer = LayerMask.NameToLayer("Zonas");
@@ -14,38 +13,38 @@ public class InZone : MonoBehaviour
         {
             if (other.CompareTag("ZonaOut"))
             {
-                GameObject out1 = GameObject.Find("Out1");
-                if (out1 != null)
+                Conexion conexion = GetComponentInParent<Conexion>();
+                if (conexion != null)
                 {
-                    // Busca el script en el objeto o en sus padres
-                    Conexion conexion = GetComponentInParent<Conexion>();
-                    if (conexion != null)
-                    {
-                        Debug.Log("Conectado con el padre!");
-                        conexion.recibirB(out1);
-                        conexion.habilitarLinea = true;
-                    }
-                    else
-                    {
-                        Debug.Log("No se encontró Conexion en Out1 ni en sus padres");
-                    }
+                    Debug.Log("Conectado con el padre!");
+                    int index = transform.GetSiblingIndex();
+                    conexion.AgregarCable(index, other.gameObject);
                 }
                 else
                 {
-                    Debug.Log("No se encontró el objeto Out1");
+                    Debug.Log("No se encontró Conexion en los padres");
                 }
             }
         }
     }
 
-
     void OnTriggerExit(Collider other)
     {
-        
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.gameObject.layer == gameObject.layer)
+        {
+            if (other.CompareTag("ZonaOut"))
+            {
+                Conexion conexion = GetComponentInParent<Conexion>();
+                if (conexion != null)
+                {
+                    Debug.Log("Objeto salió de la zona, eliminando cable");
+                    int index = conexion.GetCableIndex(other.gameObject, transform);
+                    if (index >= 0)
+                    {
+                        conexion.EliminarCable(index);
+                    }
+                }
+            }
+        }
     }
 }
