@@ -5,23 +5,21 @@ TagManager:
   serializedVersion: 3
   tags:
   - entrada
-<<<<<<< HEAD
-=======
   - ZonaIn
->>>>>>> main
+  - ZonaOut
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - CapsuleOnly
+  - 
   - Water
   - UI
   - Zonas
+  - CapsuleOnly
   - 
   - 
-  - 
-  - 
-  - 
+  - input
+  - output
   - 
   - 
   - 

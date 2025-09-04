@@ -28,7 +28,7 @@ public class UpdaterLineRenderer : MonoBehaviour
             {
 
                 
-                Vector3 a = new Vector3(transformer.position.x,transformer.position.y,transformer.position.z+(float) 0.5);
+                Vector3 a = new Vector3(transformer.position.x,transformer.position.y,transformer.position.z);
 
                 Vector3 b = pointB.transform.position;
 
@@ -47,5 +47,21 @@ public class UpdaterLineRenderer : MonoBehaviour
             if (line.isVisible)
                 line.enabled = false;
         }
+    }
+
+    public bool activo()
+    {
+        return habilitarLinea;
+    }
+
+    public void actualizarPuntoB(GameObject b)
+    {
+        // Optimizar
+        if (b == null)
+            habilitarLinea = false;
+        else
+            habilitarLinea = true;
+
+        pointB = b;
     }
 }

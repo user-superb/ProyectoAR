@@ -2,15 +2,24 @@ using UnityEngine;
 
 public class OutZone : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    UpdaterLineRenderer lineRenderer;
     void Start()
     {
-        
+        gameObject.layer = LayerMask.NameToLayer("output");
+
+        lineRenderer = gameObject.GetComponentInParent<UpdaterLineRenderer>();
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.layer == 10)
+        {
+            if (!lineRenderer.activo()) // Está medio mal pero es un placeholder por ahora
+                lineRenderer.actualizarPuntoB(other.transform.parent.gameObject); // Macumba
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerExit(Collider other)
     {
-        
+        lineRenderer.actualizarPuntoB(null);
     }
 }
