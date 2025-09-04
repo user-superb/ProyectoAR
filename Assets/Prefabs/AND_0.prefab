@@ -103,6 +103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7774282624429526974}
+  - component: {fileID: 5778181557758270914}
   m_Layer: 0
   m_Name: AND_0
   m_TagString: Untagged
@@ -132,6 +133,20 @@ Transform:
   - {fileID: 4423116890941456873}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5778181557758270914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3554522526499506383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17ba81ffb61ea449855d99c621baf19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointB: {fileID: 0}
+  habilitarLinea: 1
 --- !u!1 &4048342457703683100
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,9 +491,10 @@ GameObject:
   - component: {fileID: 4423116890941456873}
   - component: {fileID: 751764259460463873}
   - component: {fileID: 5266438127705431450}
+  - component: {fileID: 5580488898093201427}
   m_Layer: 6
   m_Name: Zona-output
-  m_TagString: Untagged
+  m_TagString: ZonaOut
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -546,6 +562,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5580488898093201427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8744848563993068491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2926603272700438c14a7467b220c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8866361291268896691
 GameObject:
   m_ObjectHideFlags: 0
