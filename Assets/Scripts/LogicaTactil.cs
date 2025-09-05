@@ -9,19 +9,19 @@ public class LogicaTactil : MonoBehaviour
     public ComportamientoEntradas IN;
     void Update()
     {
-#if UNITY_EDITOR
-        if (Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            Vector2 mousePosition = Mouse.current.position.ReadValue();
-            ProcesarToque(mousePosition);
-        }
-#else
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
-        {
-            Vector2 touchPosition = Input.GetTouch(0).position;
-            ProcesarToque(touchPosition);
-        }
-#endif
+//#if UNITY_EDITOR
+//        if (Mouse.current.leftButton.wasPressedThisFrame)
+//        {
+//            Vector2 mousePosition = Mouse.current.position.ReadValue();
+//            ProcesarToque(mousePosition);
+//        }
+//#else
+//        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+//        {
+//            Vector2 touchPosition = Input.GetTouch(0).position;
+//            ProcesarToque(touchPosition);
+//        }
+//#endif
     }
 
   /*  void ProcesarToque(Vector2 posicion)

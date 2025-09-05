@@ -14,6 +14,9 @@ public class UpdaterLineRenderer : MonoBehaviour
     {
         line = GetComponent<LineRenderer>();
         line.positionCount = 4;
+        line.startWidth = (float)0.001;
+        line.endWidth = (float)0.001;
+
         transformer = transform.GetChild(1);
     }
 
