@@ -665,6 +665,7 @@ GameObject:
   - component: {fileID: 1837627740951238726}
   - component: {fileID: 3515858007761399549}
   - component: {fileID: 7839831811211511753}
+  - component: {fileID: 2005688255386579046}
   m_Layer: 0
   m_Name: Out1
   m_TagString: Untagged
@@ -740,6 +741,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2005688255386579046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7853308476000360959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55a188078ad0a147b557ed724ec3e89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entrada: {fileID: 9089701985757322752}
+  colorEncendido: {r: 0, g: 1, b: 0, a: 1}
+  colorApagado: {r: 1, g: 0, b: 0, a: 1}
+  salida: 0
 --- !u!1 &8607947695270329615
 GameObject:
   m_ObjectHideFlags: 0
