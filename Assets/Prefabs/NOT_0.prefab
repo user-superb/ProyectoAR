@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 8815305697998951491}
   - component: {fileID: 1631109729603656727}
   - component: {fileID: 9089701985757322752}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: In1
   m_TagString: entrada
   m_Icon: {fileID: 0}
