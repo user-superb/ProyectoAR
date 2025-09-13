@@ -23,7 +23,10 @@ public class OR_Behaviour : MonoBehaviour
     }
     void Update()
     {
-        if (entradaA != null && entradaB != null)
+        CalcularSalida();
+    }
+    public void CalcularSalida(){
+                if (entradaA != null && entradaB != null)
         {
             // lógica booleana OR
             salida = entradaA.isConnected || entradaB.isConnected;
@@ -35,7 +38,6 @@ public class OR_Behaviour : MonoBehaviour
             }
         }
     }
-
     public bool GetSalida()
     {
         return salida;

@@ -16,7 +16,9 @@ public class ComportamientoEntradas : MonoBehaviour
             Debug.LogWarning("Error. Mesh no encontrado en " + gameObject.name + ". No se cargaran las propiedades del objeto.");
         this.checkOnProperties();
     }
-
+    void Update(){
+        
+    }
     void checkOnProperties()
     {
         //metodo algo innecesario, chequea si las cosas que active manualmente en Unity siguen configuradas correctamente
@@ -34,11 +36,12 @@ public class ComportamientoEntradas : MonoBehaviour
         cuerpo.isKinematic = true;
         cuerpo.useGravity = false;
     }
-    public void EsConnected(){ //Agregué este método para que pueda ser modificado por otro objeto.
-        isConnected = !isConnected;
+    public void EsConnected(bool val){ //Agregué este método para que pueda ser modificado por otro objeto.
+        isConnected = val;
     }
     public void tomarValor(bool val){ //recibe un valor booleano y lo actualiza en función del parámetro recibido
         value = val;
+        Debug.Log("Tomando valor" + val);
             if (propiedadesFisicas != null)
             {
                 if (value)
