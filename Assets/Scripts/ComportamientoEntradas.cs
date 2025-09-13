@@ -3,14 +3,15 @@ using UnityEngine;
 public class ComportamientoEntradas : MonoBehaviour
 {
     public bool isConnected = false;
-    public Color modifiedColor = Color.yellow;
-    private Color originalColor;
+    public bool value = false;
+    public Color modifiedColor = Color.green;
+    private Color originalColor = Color.red;
     private MeshRenderer propiedadesFisicas;
     void Awake()
     {
         propiedadesFisicas = GetComponent<MeshRenderer>();
         if (propiedadesFisicas != null)
-            originalColor = propiedadesFisicas.material.color;
+            originalColor = Color.red;
         else
             Debug.LogWarning("Error. Mesh no encontrado en " + gameObject.name + ". No se cargaran las propiedades del objeto.");
         this.checkOnProperties();
@@ -33,17 +34,22 @@ public class ComportamientoEntradas : MonoBehaviour
         cuerpo.isKinematic = true;
         cuerpo.useGravity = false;
     }
-
+    public void EsConnected(){
+        isConnected = !isConnected;
+    }
     public void onTouch()
     {
-        isConnected = !isConnected;
-
-        if (propiedadesFisicas != null)
+        if (!isConnected)
         {
-            if (isConnected)
-                propiedadesFisicas.material.color = modifiedColor;
-            else
-                propiedadesFisicas.material.color = originalColor;
+            value = !value;
+
+            if (propiedadesFisicas != null)
+            {
+                if (value)
+                    propiedadesFisicas.material.color = modifiedColor;
+                else
+                    propiedadesFisicas.material.color = originalColor;
+            }
         }
          
     }

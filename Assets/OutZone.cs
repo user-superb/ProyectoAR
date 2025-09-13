@@ -13,13 +13,16 @@ public class OutZone : MonoBehaviour
     {
         if (other.gameObject.layer == 10)
         {
-            if (!lineRenderer.activo()) // Está medio mal pero es un placeholder por ahora
+            if (!lineRenderer.activo()){ // Estï¿½ medio mal pero es un placeholder por ahora
                 lineRenderer.actualizarPuntoB(other.transform.parent.gameObject); // Macumba
+                other.transform.parent.GetChild(0).GetComponent<ComportamientoEntradas>().EsConnected();
+            }
         }
     }
 
     void OnTriggerExit(Collider other)
     {
         lineRenderer.actualizarPuntoB(null);
+        other.transform.parent.GetChild(0).GetComponent<ComportamientoEntradas>().EsConnected();
     }
 }

@@ -26,7 +26,7 @@ public class AND_Behaviour : MonoBehaviour
         if (entradaA != null && entradaB != null)
         {
             // lógica booleana AND
-            salida = entradaA.isConnected && entradaB.isConnected;
+            salida = entradaA.value && entradaB.value;
 
             // cambiar color del cable
             if (rendererSalida != null)
