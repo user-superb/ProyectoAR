@@ -15,9 +15,6 @@ public class OutZone : MonoBehaviour
             ce.tomarValor(transform.parent.GetChild(0).GetComponent<InterfazComp>().GetSalida());
         }
     }
-    public void cambioValor(){
-        
-    }
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer == 10)
@@ -40,5 +37,6 @@ public class OutZone : MonoBehaviour
         lineRenderer.actualizarPuntoB(null);
         other.transform.parent.GetChild(0).GetComponent<ComportamientoEntradas>().EsConnected(false);
         other.transform.parent.GetChild(0).GetComponent<ComportamientoEntradas>().tomarValor(false); //Cuando la compuerta se desconecta se ponen valores en falso
+        ce = null;
     }
 }
