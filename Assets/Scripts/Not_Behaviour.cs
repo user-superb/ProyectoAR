@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NOT_Behaviour : MonoBehaviour
+public class NOT_Behaviour : MonoBehaviour, InterfazComp
 {
     
     public ComportamientoEntradas entrada;
@@ -22,10 +22,13 @@ public class NOT_Behaviour : MonoBehaviour
     }
     void Update()
     {
+        CalcularSalida();
+    }
+    public void CalcularSalida(){
         if (entrada != null)
         {
             // lógica booleana NOT
-            salida = !entrada.isConnected;
+            salida = !entrada.value;
 
             // cambiar color del cable
             if (rendererSalida != null)

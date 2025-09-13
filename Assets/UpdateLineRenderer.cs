@@ -16,7 +16,10 @@ public class UpdaterLineRenderer : MonoBehaviour
         line.positionCount = 4;
         line.startWidth = (float)0.001;
         line.endWidth = (float)0.001;
-
+        #if UNITY_EDITOR
+            line.startWidth = 0.1f;
+            line.endWidth = 0.1f;
+        #endif
         transformer = transform.GetChild(1);
     }
 

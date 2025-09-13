@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AND_Behaviour : MonoBehaviour
+public class AND_Behaviour : MonoBehaviour, InterfazComp
 {
     
     public ComportamientoEntradas entradaA;
@@ -22,10 +22,13 @@ public class AND_Behaviour : MonoBehaviour
     }
     void Update()
     {
-        if (entradaA != null && entradaB != null)
+        CalcularSalida();
+    }
+    public void CalcularSalida(){
+                if (entradaA != null && entradaB != null)
         {
-            // lógica booleana AND
-            salida = entradaA.isConnected && entradaB.isConnected;
+            // lógica booleana OR
+            salida = entradaA.value & entradaB.value;
 
             // cambiar color del cable
             if (rendererSalida != null)
@@ -34,7 +37,6 @@ public class AND_Behaviour : MonoBehaviour
             }
         }
     }
-
     public bool GetSalida()
     {
         return salida;

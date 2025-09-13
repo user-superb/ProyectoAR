@@ -1,19 +1,12 @@
 using UnityEngine;
-
-public class OR_Behaviour : MonoBehaviour
+public class OR_Behaviour : MonoBehaviour, InterfazComp
 {
-    
     public ComportamientoEntradas entradaA;
     public ComportamientoEntradas entradaB;
-
-    
     private MeshRenderer rendererSalida;
     public Color colorEncendido = Color.green;
     public Color colorApagado = Color.red;
-
     public bool salida;
-
-
     void Start()
     {
         // Tomar el MeshRenderer del propio objeto
@@ -22,10 +15,13 @@ public class OR_Behaviour : MonoBehaviour
     }
     void Update()
     {
-        if (entradaA != null && entradaB != null)
+        CalcularSalida();
+    }
+    public void CalcularSalida(){
+                if (entradaA != null && entradaB != null)
         {
             // lógica booleana OR
-            salida = entradaA.isConnected || entradaB.isConnected;
+            salida = entradaA.value | entradaB.value;
 
             // cambiar color del cable
             if (rendererSalida != null)
@@ -34,7 +30,6 @@ public class OR_Behaviour : MonoBehaviour
             }
         }
     }
-
     public bool GetSalida()
     {
         return salida;

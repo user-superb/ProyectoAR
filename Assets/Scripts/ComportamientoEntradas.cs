@@ -3,19 +3,25 @@ using UnityEngine;
 public class ComportamientoEntradas : MonoBehaviour
 {
     public bool isConnected = false;
-    public Color modifiedColor = Color.yellow;
-    private Color originalColor;
+    public bool value = false; //verdadero valor booleano
+    public Color modifiedColor = Color.green;
+    private Color originalColor = Color.red;
     private MeshRenderer propiedadesFisicas;
     void Awake()
     {
         propiedadesFisicas = GetComponent<MeshRenderer>();
-        if (propiedadesFisicas != null)
-            originalColor = propiedadesFisicas.material.color;
+        if (propiedadesFisicas != null){
+            originalColor = Color.red;
+            modifiedColor = Color.green;
+        }
+
         else
             Debug.LogWarning("Error. Mesh no encontrado en " + gameObject.name + ". No se cargaran las propiedades del objeto.");
         this.checkOnProperties();
     }
-
+    void Update(){
+        
+    }
     void checkOnProperties()
     {
         //metodo algo innecesario, chequea si las cosas que active manualmente en Unity siguen configuradas correctamente
@@ -33,19 +39,33 @@ public class ComportamientoEntradas : MonoBehaviour
         cuerpo.isKinematic = true;
         cuerpo.useGravity = false;
     }
-
+    public void EsConnected(bool val){ //Agregué este método para que pueda ser modificado por otro objeto.
+        isConnected = val;
+    }
+    public void tomarValor(bool val){ //recibe un valor booleano y lo actualiza en función del parámetro recibido
+        value = val;
+            if (propiedadesFisicas != null)
+            {
+                if (value)
+                    propiedadesFisicas.material.color = modifiedColor;
+                else
+                    propiedadesFisicas.material.color = originalColor;
+            }
+    }
     public void onTouch()
     {
-        isConnected = !isConnected;
-
-        if (propiedadesFisicas != null)
+        if (!isConnected) //Si la compuerta está conectada no se puede modificar el valor de entrada tocándola.
         {
-            if (isConnected)
-                propiedadesFisicas.material.color = modifiedColor;
-            else
-                propiedadesFisicas.material.color = originalColor;
+            value = !value;
+
+            if (propiedadesFisicas != null)
+            {
+                if (value)
+                    propiedadesFisicas.material.color = modifiedColor;
+                else
+                    propiedadesFisicas.material.color = originalColor;
+            }
         }
-         
     }
 
    

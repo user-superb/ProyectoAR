@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class XOR_Behaviour : MonoBehaviour
+public class XOR_Behaviour : MonoBehaviour, InterfazComp
 {
     
     public ComportamientoEntradas entradaA;
@@ -22,13 +22,16 @@ public class XOR_Behaviour : MonoBehaviour
     }
     void Update()
     {
+        CalcularSalida();
+    }
+    public void CalcularSalida(){
         if (entradaA != null && entradaB != null)
         {
             // lógica booleana XOR
-            if (entradaA.isConnected && entradaB.isConnected)
+            if (entradaA.value && entradaB.value)
                 salida = false;
             else
-                salida = entradaA.isConnected || entradaB.isConnected;
+                salida = entradaA.value || entradaB.value;
 
             // cambiar color del cable
             if (rendererSalida != null)
@@ -37,9 +40,10 @@ public class XOR_Behaviour : MonoBehaviour
             }
         }
     }
-
     public bool GetSalida()
     {
         return salida;
     }
 }
+
+
