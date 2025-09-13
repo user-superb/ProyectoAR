@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine;
 
 public class XOR_Behaviour : MonoBehaviour
 {

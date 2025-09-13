@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine;
 
 public class OR_Behaviour : MonoBehaviour
 {
