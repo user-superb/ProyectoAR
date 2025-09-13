@@ -1,7 +1,6 @@
 using UnityEngine;
-using UnityEngine;
 
-public class AND_Behaviour : MonoBehaviour
+public class AND_Behaviour : MonoBehaviour, InterfazComp
 {
     
     public ComportamientoEntradas entradaA;
@@ -23,6 +22,9 @@ public class AND_Behaviour : MonoBehaviour
     }
     void Update()
     {
+        CalcularSalida();
+    }
+    public void CalcularSalida() {
         if (entradaA != null && entradaB != null)
         {
             // lógica booleana AND
@@ -35,7 +37,6 @@ public class AND_Behaviour : MonoBehaviour
             }
         }
     }
-
     public bool GetSalida()
     {
         return salida;

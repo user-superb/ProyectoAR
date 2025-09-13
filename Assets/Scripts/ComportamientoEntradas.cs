@@ -3,7 +3,7 @@ using UnityEngine;
 public class ComportamientoEntradas : MonoBehaviour
 {
     public bool isConnected = false;
-    public bool value = false;
+    public bool value = false; //verdadero valor booleano
     public Color modifiedColor = Color.green;
     private Color originalColor = Color.red;
     private MeshRenderer propiedadesFisicas;
@@ -34,12 +34,22 @@ public class ComportamientoEntradas : MonoBehaviour
         cuerpo.isKinematic = true;
         cuerpo.useGravity = false;
     }
-    public void EsConnected(){
+    public void EsConnected(){ //Agregué este método para que pueda ser modificado por otro objeto.
         isConnected = !isConnected;
+    }
+    public void tomarValor(bool val){ //recibe un valor booleano y lo actualiza en función del parámetro recibido
+        value = val;
+            if (propiedadesFisicas != null)
+            {
+                if (value)
+                    propiedadesFisicas.material.color = modifiedColor;
+                else
+                    propiedadesFisicas.material.color = originalColor;
+            }
     }
     public void onTouch()
     {
-        if (!isConnected)
+        if (!isConnected) //Si la compuerta está conectada no se puede modificar el valor de entrada tocándola.
         {
             value = !value;
 
