@@ -25,18 +25,22 @@ public class AND_Behaviour : MonoBehaviour, InterfazComp
         CalcularSalida();
     }
     public void CalcularSalida() {
-        if (entradaA != null && entradaB != null)
-        {
-            // lógica booleana AND
-            salida = entradaA.value && entradaB.value;
+    if (entradaA != null && entradaB != null)
+    {
+        salida = entradaA.value && entradaB.value;
 
-            // cambiar color del cable
-            if (rendererSalida != null)
-            {
-                rendererSalida.material.color = salida ? colorEncendido : colorApagado;
-            }
-        }
+        if (rendererSalida != null)
+            rendererSalida.material.color = salida ? colorEncendido : colorApagado;
     }
+    else
+    {
+        if (entradaA == null)
+            Debug.LogWarning("entradaA no asignada!");
+        if (entradaB == null)
+            Debug.LogWarning("entradaB no asignada!");
+    }
+}
+
     public bool GetSalida()
     {
         return salida;

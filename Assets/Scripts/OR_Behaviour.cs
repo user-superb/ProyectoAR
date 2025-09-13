@@ -29,7 +29,7 @@ public class OR_Behaviour : MonoBehaviour
                 if (entradaA != null && entradaB != null)
         {
             // lógica booleana OR
-            salida = entradaA.isConnected || entradaB.isConnected;
+            salida = entradaA.value || entradaB.value;
 
             // cambiar color del cable
             if (rendererSalida != null)

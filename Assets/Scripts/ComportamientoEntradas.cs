@@ -10,8 +10,11 @@ public class ComportamientoEntradas : MonoBehaviour
     void Awake()
     {
         propiedadesFisicas = GetComponent<MeshRenderer>();
-        if (propiedadesFisicas != null)
+        if (propiedadesFisicas != null){
             originalColor = Color.red;
+            modifiedColor = Color.green;
+        }
+
         else
             Debug.LogWarning("Error. Mesh no encontrado en " + gameObject.name + ". No se cargaran las propiedades del objeto.");
         this.checkOnProperties();
@@ -41,7 +44,6 @@ public class ComportamientoEntradas : MonoBehaviour
     }
     public void tomarValor(bool val){ //recibe un valor booleano y lo actualiza en función del parámetro recibido
         value = val;
-        Debug.Log("Tomando valor" + val);
             if (propiedadesFisicas != null)
             {
                 if (value)
@@ -64,7 +66,6 @@ public class ComportamientoEntradas : MonoBehaviour
                     propiedadesFisicas.material.color = originalColor;
             }
         }
-         
     }
 
    
