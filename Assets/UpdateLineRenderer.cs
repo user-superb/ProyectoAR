@@ -8,10 +8,14 @@ public class UpdaterLineRenderer : MonoBehaviour
 
     private Transform transformer;
     private LineRenderer line;
+    public bool lineaActiva;
+    private Gradient g;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        g = new Gradient();
+        lineaActiva = false;
         line = GetComponent<LineRenderer>();
         line.positionCount = 4;
         line.startWidth = (float)0.001;
@@ -32,9 +36,7 @@ public class UpdaterLineRenderer : MonoBehaviour
                 line.enabled = true;
             if (pointB != null)
             {
-
-                
-                Vector3 a = new Vector3(transformer.position.x,transformer.position.y,transformer.position.z);
+                Vector3 a = new Vector3(transformer.position.x, transformer.position.y, transformer.position.z);
 
                 Vector3 b = pointB.transform.position;
 
@@ -45,6 +47,7 @@ public class UpdaterLineRenderer : MonoBehaviour
                 line.SetPosition(1, inter1);
                 line.SetPosition(2, inter2);
                 line.SetPosition(3, b);
+
             }
         }
         else
@@ -53,6 +56,20 @@ public class UpdaterLineRenderer : MonoBehaviour
             if (line.isVisible)
                 line.enabled = false;
         }
+        if (lineaActiva)
+        {            
+            g.SetKeys(
+               new GradientColorKey[] { new GradientColorKey(Color.green, 0.0f), new GradientColorKey(Color.green, 1.0f) },
+               new GradientAlphaKey[] { new GradientAlphaKey(1.0f, 0.0f), new GradientAlphaKey(1.0f, 1.0f) });
+            line.colorGradient = g;
+        }
+        else
+        {
+            g.SetKeys(
+               new GradientColorKey[] { new GradientColorKey(Color.red, 0.0f), new GradientColorKey(Color.red, 1.0f) },
+               new GradientAlphaKey[] { new GradientAlphaKey(1.0f, 0.0f), new GradientAlphaKey(1.0f, 1.0f) });
+            line.colorGradient = g;
+         }
     }
 
     public bool activo()

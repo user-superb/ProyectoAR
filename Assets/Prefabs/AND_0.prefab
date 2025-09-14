@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isConnected: 0
+  value: 0
   modifiedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!1 &3195747035720925335
 GameObject:
@@ -322,7 +323,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 71885c1701f35f54783cba2605506c13, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -419,6 +420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointB: {fileID: 0}
   habilitarLinea: 0
+  lineaActiva: 0
 --- !u!1 &3984116345767022782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,6 +1251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isConnected: 0
+  value: 0
   modifiedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!1001 &6127849551278716853
 PrefabInstance:

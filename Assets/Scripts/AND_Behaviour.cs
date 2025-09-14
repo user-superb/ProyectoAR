@@ -10,12 +10,14 @@ public class AND_Behaviour : MonoBehaviour, InterfazComp
     private MeshRenderer rendererSalida;
     public Color colorEncendido = Color.green;
     public Color colorApagado = Color.red;
+    private UpdaterLineRenderer lineRenderer;
 
     public bool salida;
 
 
     void Start()
     {
+        lineRenderer = transform.parent.parent.GetComponent<UpdaterLineRenderer>();
         // Tomar el MeshRenderer del propio objeto
         rendererSalida = GetComponent<MeshRenderer>();
         salida = false;
@@ -25,11 +27,11 @@ public class AND_Behaviour : MonoBehaviour, InterfazComp
         CalcularSalida();
     }
     public void CalcularSalida(){
-                if (entradaA != null && entradaB != null)
+        if (entradaA != null && entradaB != null)
         {
             // lógica booleana OR
             salida = entradaA.value & entradaB.value;
-
+            lineRenderer.lineaActiva = salida;
             // cambiar color del cable
             if (rendererSalida != null)
             {

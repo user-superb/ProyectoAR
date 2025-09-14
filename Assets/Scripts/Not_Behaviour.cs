@@ -12,10 +12,11 @@ public class NOT_Behaviour : MonoBehaviour, InterfazComp
     public Color colorApagado = Color.red;
 
     public bool salida;
-
+    private UpdaterLineRenderer lineRenderer;
 
     void Start()
     {
+        lineRenderer = transform.parent.parent.GetComponent<UpdaterLineRenderer>();
         // Tomar el MeshRenderer del propio objeto
         rendererSalida = GetComponent<MeshRenderer>();
         salida = false;
@@ -29,7 +30,7 @@ public class NOT_Behaviour : MonoBehaviour, InterfazComp
         {
             // lógica booleana NOT
             salida = !entrada.value;
-
+            lineRenderer.lineaActiva = salida;
             // cambiar color del cable
             if (rendererSalida != null)
             {
