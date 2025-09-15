@@ -1,9 +1,10 @@
 {
   "dependencies": {
+    "com.meta.xr.sdk.all": "78.0.0",
     "com.unity.cloud.gltfast": "6.12.1",
     "com.unity.collab-proxy": "2.7.1",
     "com.unity.feature.development": "1.0.2",
-    "com.unity.inputsystem": "1.14.0",
+    "com.unity.inputsystem": "1.14.2",
     "com.unity.learn.iet-framework": "4.0.4",
     "com.unity.multiplayer.center": "1.0.0",
     "com.unity.render-pipelines.universal": "17.0.4",
@@ -12,8 +13,9 @@
     "com.unity.xr.arcore": "6.1.1",
     "com.unity.xr.arfoundation": "6.1.1",
     "com.unity.xr.arkit": "6.1.0",
-    "com.unity.xr.interaction.toolkit": "3.1.1",
+    "com.unity.xr.interaction.toolkit": "3.1.2",
     "com.unity.xr.management": "4.5.1",
+    "com.unity.xr.openxr": "1.14.3",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
