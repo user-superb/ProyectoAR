@@ -674,10 +674,10 @@ LineRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: d0244b714015f7e4db3dafd77221b58b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -708,8 +708,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.041900635
-        value: 0.006286621
+        time: 0.045956895
+        value: 0.029468954
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -749,13 +749,13 @@ LineRenderer:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    numCornerVertices: 0
+    numCornerVertices: 1
     numCapVertices: 0
     alignment: 0
     textureMode: 0
     textureScale: {x: 1, y: 1}
     shadowBias: 0.5
-    generateLightingData: 0
+    generateLightingData: 1
   m_MaskInteraction: 0
   m_UseWorldSpace: 1
   m_Loop: 0
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointB: {fileID: 0}
-  habilitarLinea: 0
+  habilitarLinea: 1
 --- !u!54 &6772577752308980818
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1593,7 +1593,7 @@ Transform:
   m_GameObject: {fileID: 6287235173622694069}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.094, y: 0, z: -0.68}
+  m_LocalPosition: {x: 0.094000004, y: 0, z: -0.67999995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2639,6 +2639,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7774282624429526974}
     m_Modifications:
+    - target: {fileID: -7867290164230299627, guid: 49261535961c016448f36a241cf8e5c7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -7867290164230299627, guid: 49261535961c016448f36a241cf8e5c7,
         type: 3}
       propertyPath: 'm_Materials.Array.data[1]'

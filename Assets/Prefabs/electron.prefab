@@ -10392,6 +10392,12 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.018091854
       objectReference: {fileID: 0}
+    - target: {fileID: 1049238891932018631, guid: e9d3442f9b11ed64fa423076c933faf5,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 7390553463975553142, guid: 7ab6f3b0fd1a6ba41b2a47766c16613f,
+        type: 3}
     - target: {fileID: 2718245684778904609, guid: e9d3442f9b11ed64fa423076c933faf5,
         type: 3}
       propertyPath: gateLogicBehaviour
