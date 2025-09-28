@@ -24,6 +24,7 @@ public class OutZone : MonoBehaviour
             // Le pasa a la entrada el valor lógico que tiene la salida de esta compuerta
             // O sea: cada frame le copia el valor de salida de esta compuerta a la otra
             ce.tomarValor(transform.parent.GetChild(0).GetComponent<InterfazComp>().GetSalida());
+            
         }
     }
 
