@@ -31,35 +31,35 @@ public class OutZone : MonoBehaviour
 void OnTriggerEnter(Collider other)
 {
     // Si el objeto que entra está en la capa 10 (entrada de otra compuerta)
-    if (other.gameObject.layer == 10)
-    {
-        // Guardo la referencia a esa entrada
-        ce = other.transform.parent.GetChild(0).GetComponent<ComportamientoEntradas>();
-
-        // Si todavía no hay un cable dibujado
-        if (!lineRenderer.activo()) 
+        if (other.gameObject.layer == 10)
         {
-            // Le digo al LineRenderer que el punto B es esa otra compuerta (dibuja el cable)
-            lineRenderer.actualizarPuntoB(other.transform.parent.gameObject);
+            // Guardo la referencia a esa entrada
+            ce = other.transform.parent.GetChild(0).GetComponent<ComportamientoEntradas>();
 
-            // Marco la entrada de la otra compuerta como "conectada"
-            ce.EsConnected(true);
-
-            // Pregunto si mi salida tiene un valor lógico
-            bool? salida = transform.parent.GetChild(0).GetComponent<InterfazComp>().GetSalida();
-
-            if (salida != null) 
+            // Si todavía no hay un cable dibujado
+            if (!lineRenderer.activo())
             {
-                // Paso ese valor lógico a la entrada de la otra compuerta
-                ce.tomarValor(salida.Value);
-            }
-            else
-            {
-                // Si no hay valor, solo tiro un mensaje de debug
-                Debug.Log("log");
+                // Le digo al LineRenderer que el punto B es esa otra compuerta (dibuja el cable)
+                lineRenderer.actualizarPuntoB(other.transform.parent.gameObject);
+
+                // Marco la entrada de la otra compuerta como "conectada"
+                ce.EsConnected(true);
+
+                // Pregunto si mi salida tiene un valor lógico
+                bool? salida = transform.parent.GetChild(0).GetComponent<InterfazComp>().GetSalida();
+
+                if (salida != null)
+                {
+                    // Paso ese valor lógico a la entrada de la otra compuerta
+                    ce.tomarValor(salida.Value);
+                }
+                else
+                {
+                    // Si no hay valor, solo tiro un mensaje de debug
+                    Debug.Log("log");
+                }
             }
         }
-    }
 }
 
 

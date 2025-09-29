@@ -708,7 +708,6 @@ GameObject:
   - component: {fileID: 66640846593503731}
   - component: {fileID: 1051141545502673951}
   - component: {fileID: 8815305697998951491}
-  - component: {fileID: 1631109729603656727}
   - component: {fileID: 9089701985757322752}
   m_Layer: 7
   m_Name: In1
@@ -802,39 +801,12 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.012233496
   m_Height: 0.09985964
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1631109729603656727
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4573667296849177621}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &9089701985757322752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1239,7 +1211,7 @@ Transform:
   m_GameObject: {fileID: 6344636429149918093}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0426, y: -0.0026, z: 0.4347}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1265,7 +1237,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
-  m_Center: {x: 0.03920594, y: 0, z: -0.4339618}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &8547722380358876761
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1453,7 +1425,7 @@ GameObject:
   - component: {fileID: 9127515210660420585}
   - component: {fileID: 5008031220172543814}
   - component: {fileID: 5469866438745237708}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Center of the Universe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1545,7 +1517,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1653,7 +1625,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2106,7 +2078,7 @@ Transform:
   m_GameObject: {fileID: 8607947695270329615}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.353, y: 0, z: -0.3458}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2132,7 +2104,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
-  m_Center: {x: 0.35991797, y: 0, z: 0.34624636}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &9151287144651154372
 Rigidbody:
   m_ObjectHideFlags: 0

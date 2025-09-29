@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 662822345220337434}
   - component: {fileID: 9074522996056688060}
   - component: {fileID: 1816258582134504909}
-  - component: {fileID: 4359114770097631903}
   - component: {fileID: 1366607320935391832}
   m_Layer: 7
   m_Name: In1
@@ -106,39 +105,12 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.012233496
   m_Height: 0.09985964
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4359114770097631903
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461927232065094745}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &1366607320935391832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,7 +274,6 @@ GameObject:
   - component: {fileID: 2831704232683029487}
   - component: {fileID: 6839098853015628936}
   - component: {fileID: 3716140447420369450}
-  - component: {fileID: 6048280404689947490}
   - component: {fileID: 4585395170271930328}
   m_Layer: 7
   m_Name: In2
@@ -396,39 +367,12 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.012233496
   m_Height: 0.09985964
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6048280404689947490
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1423717536527917014}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &4585395170271930328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1129,7 +1073,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1315,7 +1259,7 @@ Transform:
   m_GameObject: {fileID: 5434778148059802874}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3576, y: 0, z: -0.3465}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1341,7 +1285,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
-  m_Center: {x: 0.35991797, y: 0, z: 0.34624636}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4426207068200189106
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1630,7 +1574,7 @@ GameObject:
   - component: {fileID: 5504675184546403209}
   - component: {fileID: 2374015214790485437}
   - component: {fileID: 7547556414037008276}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Center of the Universe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1722,7 +1666,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1772,7 +1716,7 @@ GameObject:
   - component: {fileID: 8440785810344557713}
   - component: {fileID: 3804767608147012}
   - component: {fileID: 1547081527328586361}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Center of the Universe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1864,7 +1808,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2113,7 +2057,7 @@ Transform:
   m_GameObject: {fileID: 7927603699008066010}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3598, y: 0, z: -0.3456}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2139,7 +2083,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
-  m_Center: {x: 0.35991797, y: 0, z: 0.34624636}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4204867561927803494
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2195,7 +2139,7 @@ Transform:
   m_GameObject: {fileID: 8396125909536466680}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0408, y: -0.0012, z: 0.4282}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2221,7 +2165,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
-  m_Center: {x: 0.03920594, y: 0, z: -0.4339618}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &7714355652224548944
 Rigidbody:
   m_ObjectHideFlags: 0
