@@ -44,6 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edf547b88b3191e4bb9f668b07fb0637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  referencia: {fileID: 0}
+  offsetLocal: {x: 0, y: 0, z: 0}
+  rotacionExtra: {x: 0, y: 0, z: 0, w: 1}
+  contenedorUI: {fileID: 0}
   prefab: {fileID: 8919636977172489645, guid: 5325e29776f6a794d847f68888a28d46, type: 3}
-  posicionSpawn: {x: 0.294, y: 1.5346, z: 0.894}
-  rotacionSpawn: {x: 0, y: 0, z: 0, w: 1}

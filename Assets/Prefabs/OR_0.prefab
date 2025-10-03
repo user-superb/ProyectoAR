@@ -667,6 +667,7 @@ GameObject:
   - component: {fileID: -4537458306980286143}
   - component: {fileID: 3107154156792955181}
   - component: {fileID: 7110824879968767868}
+  - component: {fileID: 6309109143011366044}
   m_Layer: 0
   m_Name: OR_0
   m_TagString: Untagged
@@ -866,6 +867,18 @@ MonoBehaviour:
   _rigidbody: {fileID: 3107154156792955181}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+--- !u!114 &6309109143011366044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3554522526499506383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69b5a5200442a634f9a3cec167dbb904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3742874752064966984
 GameObject:
   m_ObjectHideFlags: 0
@@ -2536,6 +2549,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OR
+      objectReference: {fileID: 0}
+    - target: {fileID: -4135911578734436982, guid: 19fbba94192831d4ea62f8ffa5ca555d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gate
       objectReference: {fileID: 0}
     - target: {fileID: 6182396515110720059, guid: 19fbba94192831d4ea62f8ffa5ca555d,
         type: 3}

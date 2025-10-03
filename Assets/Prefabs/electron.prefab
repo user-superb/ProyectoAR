@@ -5293,7 +5293,7 @@ GameObject:
   - component: {fileID: 4094505503305301708}
   m_Layer: 11
   m_Name: Particle System
-  m_TagString: Untagged
+  m_TagString: Gate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10497,6 +10497,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853308476000360959, guid: e9d3442f9b11ed64fa423076c933faf5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gate
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2005688255386579046, guid: e9d3442f9b11ed64fa423076c933faf5, type: 3}
