@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2589073521850729139}
   m_Layer: 11
   m_Name: electron (1)
-  m_TagString: ZonaOut
+  m_TagString: Gate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
