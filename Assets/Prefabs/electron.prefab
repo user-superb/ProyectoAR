@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 8106479430724408195}
   - component: {fileID: 3144309416423167220}
   - component: {fileID: 3864551244156810013}
-  - component: {fileID: 2448683351813668471}
-  m_Layer: 0
+  - component: {fileID: 2589073521850729139}
+  m_Layer: 11
   m_Name: electron (1)
   m_TagString: ZonaOut
   m_Icon: {fileID: 0}
@@ -218,7 +218,7 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
---- !u!114 &2448683351813668471
+--- !u!114 &2589073521850729139
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1158757251198331933}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff2926603272700438c14a7467b220c0, type: 3}
+  m_Script: {fileID: 11500000, guid: ede776ee8664b73409b5333c2c2f4f07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1197650077560582626
@@ -5291,7 +5291,7 @@ GameObject:
   - component: {fileID: 2588618634806078306}
   - component: {fileID: 7647425098584846846}
   - component: {fileID: 4094505503305301708}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10441,7 +10441,7 @@ PrefabInstance:
     - target: {fileID: 7774282624429526974, guid: e9d3442f9b11ed64fa423076c933faf5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5732
+      value: 0.329
       objectReference: {fileID: 0}
     - target: {fileID: 7774282624429526974, guid: e9d3442f9b11ed64fa423076c933faf5,
         type: 3}
@@ -10451,7 +10451,7 @@ PrefabInstance:
     - target: {fileID: 7774282624429526974, guid: e9d3442f9b11ed64fa423076c933faf5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.4616611
+      value: 0.125
       objectReference: {fileID: 0}
     - target: {fileID: 7774282624429526974, guid: e9d3442f9b11ed64fa423076c933faf5,
         type: 3}
@@ -10492,6 +10492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853308476000360959, guid: e9d3442f9b11ed64fa423076c933faf5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2005688255386579046, guid: e9d3442f9b11ed64fa423076c933faf5, type: 3}

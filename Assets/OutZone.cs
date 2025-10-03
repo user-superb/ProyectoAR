@@ -10,6 +10,7 @@ public class OutZone : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("entro a Start");
         // Pone este objeto en la capa "output" (seguramente la salida de la compuerta)
         gameObject.layer = LayerMask.NameToLayer("output");
 
@@ -18,18 +19,21 @@ public class OutZone : MonoBehaviour
     }
 
     void Update(){
+        
         // Si tenemos una entrada conectada (ce != null)
         if (ce != null)
         {
+            //Debug.Log("entro a update y ce es distinto de null");
             // Le pasa a la entrada el valor lógico que tiene la salida de esta compuerta
             // O sea: cada frame le copia el valor de salida de esta compuerta a la otra
             ce.tomarValor(transform.parent.GetChild(0).GetComponent<InterfazComp>().GetSalida());
-            
+
         }
     }
 
 void OnTriggerEnter(Collider other)
 {
+    Debug.Log("entro a OnTriggerEnter");
     // Si el objeto que entra está en la capa 10 (entrada de otra compuerta)
         if (other.gameObject.layer == 10)
         {
@@ -65,6 +69,7 @@ void OnTriggerEnter(Collider other)
 
     void OnTriggerExit(Collider other)
     {
+        Debug.Log("entro a OnTriggerExit");
         // Si se separan, borra el punto B de la línea (corta el cable)
         lineRenderer.actualizarPuntoB(null);
 

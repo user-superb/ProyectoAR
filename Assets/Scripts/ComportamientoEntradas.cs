@@ -11,6 +11,7 @@ public class ComportamientoEntradas : MonoBehaviour
     private RayInteractable _ray;
     void Awake()
     {
+        Debug.Log("entro a Awake");
         _ray = GetComponent<RayInteractable>();
         if (_ray != null)
         {
@@ -30,12 +31,12 @@ public class ComportamientoEntradas : MonoBehaviour
             Debug.LogWarning("Error. Mesh no encontrado en " + gameObject.name + ". No se cargaran las propiedades del objeto.");
         this.checkOnProperties();
     }
-    void Update()
-    {
-
+    void Update(){
+        //Debug.Log("entro a update");
     }
     void checkOnProperties()
     {
+        Debug.Log("entro a checkOnProperties");
         //metodo algo innecesario, chequea si las cosas que active manualmente en Unity siguen configuradas correctamente
         CapsuleCollider capsuleCollider = GetComponent<CapsuleCollider>();
         if (capsuleCollider != null)
@@ -68,6 +69,7 @@ public class ComportamientoEntradas : MonoBehaviour
     }
     public void onTouch(PointerEvent evt)
     {
+        Debug.Log("entro a onTouch(PointerEvent evt)");
         if (!isConnected) //Si la compuerta está conectada no se puede modificar el valor de entrada tocándola.
         {
             value = !value;
@@ -84,6 +86,7 @@ public class ComportamientoEntradas : MonoBehaviour
 
     public void onTouch()
     {
+        Debug.Log("entro a onTouch");
         if (!isConnected) //Si la compuerta está conectada no se puede modificar el valor de entrada tocándola.
         {
             value = !value;
@@ -99,6 +102,7 @@ public class ComportamientoEntradas : MonoBehaviour
     }
     public void tocarEntrada()
     {
+        Debug.Log("entro a tocarEntrada");
         if (!isConnected) //Si la compuerta está conectada no se puede modificar el valor de entrada tocándola.
         {
             value = !value;
