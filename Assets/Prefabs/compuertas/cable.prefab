@@ -2067,7 +2067,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 362967c1bd57cb44eac55b83fcdc713f, type: 2}
+  - {fileID: 2100000, guid: 7c06e03335edbfa4d97f70eed920b72e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2111,7 +2111,7 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.16022621, g: 0.06541473, b: 0.9245283, a: 1}
+      key0: {r: 1, g: 1, b: 1, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 1}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -2168,8 +2168,8 @@ MonoBehaviour:
   segmentos: 16
   sag: 0.02
   usarGradiente: 1
-  colorInicio: {r: 0, g: 1, b: 0, a: 1}
-  colorFin: {r: 1, g: 0, b: 0, a: 1}
+  colorInicio: {r: 1, g: 1, b: 1, a: 1}
+  colorFin: {r: 1, g: 1, b: 1, a: 1}
   usarFlecha: 1
   flechaPrefab: {fileID: 0}
   flechaEscala: 1

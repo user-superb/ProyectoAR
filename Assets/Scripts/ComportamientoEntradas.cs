@@ -8,6 +8,8 @@ public class ComportamientoEntradas : MonoBehaviour
     public Color modifiedColor = Color.green;
     private Color originalColor = Color.red;
     private MeshRenderer propiedadesFisicas;
+    private MeshRenderer centroDelUniverso;
+    private LineRenderer cable;
     private RayInteractable _ray;
     void Awake()
     {
@@ -21,14 +23,21 @@ public class ComportamientoEntradas : MonoBehaviour
         }
 
         propiedadesFisicas = GetComponent<MeshRenderer>();
+        centroDelUniverso = transform.parent.Find("Center of the Universe").GetComponent<MeshRenderer>();
+        cable = transform.root.GetComponentInChildren<LineRenderer>(true);
+
+
         if (propiedadesFisicas != null)
         {
             originalColor = Color.red;
             modifiedColor = Color.green;
+            propiedadesFisicas.material.color = originalColor;
+         //   if (cable != null) cable.material.color = modifiedColor;
+                
         }
 
-        else
-            Debug.LogWarning("Error. Mesh no encontrado en " + gameObject.name + ". No se cargaran las propiedades del objeto.");
+            else
+                Debug.LogWarning("Error. Mesh no encontrado en " + gameObject.name + ". No se cargaran las propiedades del objeto.");
         this.checkOnProperties();
     }
     void Update(){
@@ -62,9 +71,26 @@ public class ComportamientoEntradas : MonoBehaviour
         if (propiedadesFisicas != null)
         {
             if (value)
+            {
                 propiedadesFisicas.material.color = modifiedColor;
+                //  centroDelUniverso.material.color = modifiedColor;
+                if (cable != null)
+                {
+                    cable.startColor = modifiedColor;
+                    cable.endColor = modifiedColor;
+                }
+
+            }
             else
+            {
                 propiedadesFisicas.material.color = originalColor;
+                //  centroDelUniverso.material.color = originalColor;
+                if (cable != null)
+                {
+                    cable.startColor = originalColor;
+                    cable.endColor = originalColor;
+                }
+            }
         }
     }
     public void onTouch(PointerEvent evt)
