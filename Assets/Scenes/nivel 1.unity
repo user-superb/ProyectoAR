@@ -1205,17 +1205,17 @@ PrefabInstance:
     - target: {fileID: 2413671214006641372, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.305
+      value: 0.0166
       objectReference: {fileID: 0}
     - target: {fileID: 2413671214006641372, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0.7929
       objectReference: {fileID: 0}
     - target: {fileID: 2413671214006641372, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 1.0043
       objectReference: {fileID: 0}
     - target: {fileID: 2413671214006641372, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
@@ -1851,7 +1851,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8730009047323838127, guid: 7d663f024225f8b44b0a80af2b41624a,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8867149915907833361}
+      addedObject: {fileID: 8867149915907833357}
+    - targetCorrespondingSourceObject: {fileID: 8730009047323838127, guid: 7d663f024225f8b44b0a80af2b41624a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8867149915907833356}
   m_SourcePrefab: {fileID: 100100000, guid: 7d663f024225f8b44b0a80af2b41624a, type: 3}
 --- !u!1 &8867149915907833355 stripped
 GameObject:
@@ -1859,7 +1863,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8867149915907833354}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8867149915907833361
+--- !u!114 &8867149915907833356
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1868,10 +1872,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 8867149915907833355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 015272075c58a6847a3f48c2f3596e64, type: 3}
+  m_Script: {fileID: 11500000, guid: 96c7e151d98b094498bf88aee47be98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nombreEscenaSiguiente: nivel 2
+--- !u!114 &8867149915907833357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867149915907833355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaacbd1e581e1884caddc3fcaae17df0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  esperarPositivo: 0
+  tiempoNecesario: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
