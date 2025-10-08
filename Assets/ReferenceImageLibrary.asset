@@ -147,3 +147,43 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: XOR_2
     m_Texture: {fileID: 2800000, guid: 9c77e30f2c2ab8249bc7abf3c22ec6f4, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5104216958862418241
+      m_GuidHigh: 5453465694406227641
+    m_SerializedTextureGuid:
+      m_GuidLow: 6833359822370527435
+      m_GuidHigh: 16315846340988026987
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: LAMPARA_0
+    m_Texture: {fileID: 2800000, guid: c2d258cbf88d5ed46bc07254cd876de2, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4633059424006444713
+      m_GuidHigh: 1978209270980528776
+    m_SerializedTextureGuid:
+      m_GuidLow: 1870380298512216946
+      m_GuidHigh: 1619138727297981384
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: LAMPARA_1
+    m_Texture: {fileID: 2800000, guid: c7b5b372ecf819f4c89bac0a18567816, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5211939739616341823
+      m_GuidHigh: 8638455271732669838
+    m_SerializedTextureGuid:
+      m_GuidLow: 15669319431843127912
+      m_GuidHigh: 5470327487296841737
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: LAMPARA_2
+    m_Texture: {fileID: 2800000, guid: ef22a2689b00d974092862dddd81ea4b, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5504784064667916958
+      m_GuidHigh: 9178284083432569229
+    m_SerializedTextureGuid:
+      m_GuidLow: 13854379257325653970
+      m_GuidHigh: 955545856900448264
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: LAMPARA_3
+    m_Texture: {fileID: 2800000, guid: e86f8fd2a487c04408c025e7e4c7420d, type: 3}
