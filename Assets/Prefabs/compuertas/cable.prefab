@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 3740212275079491215}
   - component: {fileID: 4678780911158466989}
   m_Layer: 10
-  m_Name: input_collider_1
+  m_Name: Cable entrada
   m_TagString: Gate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1008,7 +1008,7 @@ GameObject:
   - component: {fileID: 7138789401488693879}
   - component: {fileID: 4181609308176504462}
   m_Layer: 11
-  m_Name: out_collider
+  m_Name: Cable salida
   m_TagString: Gate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

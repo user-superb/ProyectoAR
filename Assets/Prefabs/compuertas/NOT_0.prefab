@@ -1210,7 +1210,7 @@ GameObject:
   - component: {fileID: 8547722380358876761}
   - component: {fileID: 7834333690309896307}
   m_Layer: 11
-  m_Name: out_collider
+  m_Name: 'NOT salida '
   m_TagString: ZonaOut
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2078,7 +2078,7 @@ GameObject:
   - component: {fileID: 9151287144651154372}
   - component: {fileID: 7343688381053980105}
   m_Layer: 10
-  m_Name: input_collider_1
+  m_Name: 'NOT entrada '
   m_TagString: ZonaIn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

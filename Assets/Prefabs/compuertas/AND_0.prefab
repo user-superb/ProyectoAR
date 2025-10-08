@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 7080306451538222872}
   - component: {fileID: 4348877387831322633}
   m_Layer: 10
-  m_Name: input_collider_1
+  m_Name: AND entrada 2
   m_TagString: ZonaIn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1088,7 +1088,7 @@ GameObject:
   - component: {fileID: 6884219554381289889}
   - component: {fileID: 3257244660670267020}
   m_Layer: 10
-  m_Name: input_collider_1
+  m_Name: AND entrada 1
   m_TagString: ZonaIn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2306,7 +2306,7 @@ GameObject:
   - component: {fileID: 5266438127705431450}
   - component: {fileID: 336429361055799905}
   m_Layer: 11
-  m_Name: out_collider
+  m_Name: 'AND salida '
   m_TagString: ZonaOut
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

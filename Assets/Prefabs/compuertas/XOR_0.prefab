@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5742836471129539409}
   - component: {fileID: 4771814571956119476}
   m_Layer: 11
-  m_Name: out_collider
+  m_Name: 'XOR salida '
   m_TagString: ZonaOut
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -535,7 +535,7 @@ GameObject:
   - component: {fileID: 5282244128673560562}
   - component: {fileID: 4939114379012464335}
   m_Layer: 10
-  m_Name: input_collider_1
+  m_Name: XOR entrada 1
   m_TagString: ZonaIn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2196,7 +2196,7 @@ GameObject:
   - component: {fileID: 8229925192659035170}
   - component: {fileID: 8616139151846892073}
   m_Layer: 10
-  m_Name: input_collider_1
+  m_Name: XOR entrada 2
   m_TagString: ZonaIn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

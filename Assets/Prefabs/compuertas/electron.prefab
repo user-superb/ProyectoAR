@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3864551244156810013}
   - component: {fileID: 2589073521850729139}
   m_Layer: 11
-  m_Name: electron (1)
+  m_Name: Electron
   m_TagString: Gate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10441,17 +10441,17 @@ PrefabInstance:
     - target: {fileID: 7774282624429526974, guid: e9d3442f9b11ed64fa423076c933faf5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.329
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7774282624429526974, guid: e9d3442f9b11ed64fa423076c933faf5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.096
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7774282624429526974, guid: e9d3442f9b11ed64fa423076c933faf5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.125
+      value: 1.125
       objectReference: {fileID: 0}
     - target: {fileID: 7774282624429526974, guid: e9d3442f9b11ed64fa423076c933faf5,
         type: 3}

@@ -1260,7 +1260,7 @@ GameObject:
   - component: {fileID: 4426207068200189106}
   - component: {fileID: 3287013762197404331}
   m_Layer: 10
-  m_Name: input_collider_1
+  m_Name: Or entrada 2
   m_TagString: ZonaIn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2074,7 +2074,7 @@ GameObject:
   - component: {fileID: 4204867561927803494}
   - component: {fileID: 4989384729706597297}
   m_Layer: 10
-  m_Name: input_collider_1
+  m_Name: OR entrada 1
   m_TagString: ZonaIn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2171,7 +2171,7 @@ GameObject:
   - component: {fileID: 7714355652224548944}
   - component: {fileID: 5962287726160381348}
   m_Layer: 11
-  m_Name: out_collider
+  m_Name: OR salida
   m_TagString: ZonaOut
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
