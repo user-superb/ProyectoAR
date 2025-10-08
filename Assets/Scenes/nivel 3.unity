@@ -568,14 +568,44 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7408951807519827232, guid: 1b7d145d278ca344ea96530087879100,
         type: 3}
+      propertyPath: Spatialize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408951807519827232, guid: 1b7d145d278ca344ea96530087879100,
+        type: 3}
       propertyPath: m_Resource
       value: 
       objectReference: {fileID: 8300000, guid: d96b7ab6b96ba1f4a96399b084589179, type: 3}
     - target: {fileID: 7408951807519827232, guid: 1b7d145d278ca344ea96530087879100,
         type: 3}
+      propertyPath: MaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408951807519827232, guid: 1b7d145d278ca344ea96530087879100,
+        type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: d96b7ab6b96ba1f4a96399b084589179, type: 3}
+    - target: {fileID: 7408951807519827232, guid: 1b7d145d278ca344ea96530087879100,
+        type: 3}
+      propertyPath: DopplerLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408951807519827232, guid: 1b7d145d278ca344ea96530087879100,
+        type: 3}
+      propertyPath: SpatializePostEffects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408951807519827232, guid: 1b7d145d278ca344ea96530087879100,
+        type: 3}
+      propertyPath: spreadCustomCurve.m_Curve.Array.data[0].value
+      value: 0.16666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408951807519827232, guid: 1b7d145d278ca344ea96530087879100,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8832196461135137562, guid: 1b7d145d278ca344ea96530087879100,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -589,7 +619,7 @@ PrefabInstance:
     - target: {fileID: 8832196461135137562, guid: 1b7d145d278ca344ea96530087879100,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.264
+      value: 1.67
       objectReference: {fileID: 0}
     - target: {fileID: 8832196461135137562, guid: 1b7d145d278ca344ea96530087879100,
         type: 3}

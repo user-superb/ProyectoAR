@@ -4,12 +4,12 @@ using UnityEngine;
 public class EntradaZone : MonoBehaviour
 {
     // Referencia al “modelo” de la entrada (tu script que pinta y guarda value)
-    [SerializeField] private ComportamientoEntradas entrada; 
+    [SerializeField] public ComportamientoEntradas entrada; 
 
     // La salida con la que estoy conectado ahora
     private IOutputProvider salidaConectada;
     private Transform salidaRoot; // para chequear OnTriggerExit exacto
-    [SerializeField] private LineRenderer cable; // opcional: un cable por entrada
+    [SerializeField] public LineRenderer cable; // opcional: un cable por entrada
 
     [Header("Capas")]
     [SerializeField] private string capaSalida = "output"; // la capa de las salidas
@@ -43,7 +43,7 @@ void OnTriggerEnter(Collider other)
     Debug.Log($"[EntradaZone] OnTriggerEnter con {other.gameObject.name}, capa {other.gameObject.layer}");
 
     // ¿Entró una salida?
-    if (other.gameObject.layer == LayerMask.NameToLayer(capaSalida))
+    if (other.gameObject.layer == LayerMask.NameToLayer(capaSalida)  || other.gameObject.layer == LayerMask.NameToLayer("input"))
     {
         Debug.Log($"[EntradaZone] {other.gameObject.name} está en la capa de salidas ({capaSalida})");
 
