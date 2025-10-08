@@ -645,6 +645,7 @@ GameObject:
   - component: {fileID: 192141896}
   - component: {fileID: 192141898}
   - component: {fileID: 192141897}
+  - component: {fileID: 192141899}
   m_Layer: 0
   m_Name: CenterEyeAnchor
   m_TagString: MainCamera
@@ -726,6 +727,50 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192141895}
   m_Enabled: 1
+--- !u!114 &192141899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192141895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &213760512
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,18 +2322,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 743013363}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &743013365 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8089639155366107451, guid: 2fe2f3ab938f13f4ea2fd4ee1f49d693,
-    type: 3}
-  m_PrefabInstance: {fileID: 743013363}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edf547b88b3191e4bb9f668b07fb0637, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &805379967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2437,7 +2470,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NOT
+  m_text: calibrar altura
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2944,7 +2977,7 @@ PrefabInstance:
     - target: {fileID: 8700630878672271321, guid: 1ea95a94e398ff94dbefb6e293850399,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 8700630878672271321, guid: 1ea95a94e398ff94dbefb6e293850399,
         type: 3}
@@ -2954,12 +2987,12 @@ PrefabInstance:
     - target: {fileID: 8700630878672271321, guid: 1ea95a94e398ff94dbefb6e293850399,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.92387956
       objectReference: {fileID: 0}
     - target: {fileID: 8700630878672271321, guid: 1ea95a94e398ff94dbefb6e293850399,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.38268343
       objectReference: {fileID: 0}
     - target: {fileID: 8700630878672271321, guid: 1ea95a94e398ff94dbefb6e293850399,
         type: 3}
@@ -2974,7 +3007,7 @@ PrefabInstance:
     - target: {fileID: 8700630878672271321, guid: 1ea95a94e398ff94dbefb6e293850399,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 8700630878672271321, guid: 1ea95a94e398ff94dbefb6e293850399,
         type: 3}
@@ -4363,7 +4396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1876485839
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4460,9 +4493,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 743013365}
-        m_TargetAssemblyTypeName: SpawnerBoton, Assembly-CSharp
-        m_MethodName: SpawnPrefab
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: AjustarAlturaOVR, Assembly-CSharp
+        m_MethodName: CalibrarAltura
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

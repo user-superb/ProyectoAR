@@ -1099,7 +1099,7 @@ PrefabInstance:
     - target: {fileID: 2413671214006641372, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 2413671214006641372, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
@@ -1388,7 +1388,7 @@ PrefabInstance:
     - target: {fileID: 2413671214006641372, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 2413671214006641372, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
@@ -1580,7 +1580,7 @@ PrefabInstance:
     - target: {fileID: 6731723659593690299, guid: 4393db73398a8e6468d2682a58137c74,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 1.35
       objectReference: {fileID: 0}
     - target: {fileID: 6731723659593690299, guid: 4393db73398a8e6468d2682a58137c74,
         type: 3}
@@ -1590,12 +1590,12 @@ PrefabInstance:
     - target: {fileID: 6731723659593690299, guid: 4393db73398a8e6468d2682a58137c74,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.8660254
       objectReference: {fileID: 0}
     - target: {fileID: 6731723659593690299, guid: 4393db73398a8e6468d2682a58137c74,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6731723659593690299, guid: 4393db73398a8e6468d2682a58137c74,
         type: 3}
@@ -1610,7 +1610,7 @@ PrefabInstance:
     - target: {fileID: 6731723659593690299, guid: 4393db73398a8e6468d2682a58137c74,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
+      value: -60
       objectReference: {fileID: 0}
     - target: {fileID: 6731723659593690299, guid: 4393db73398a8e6468d2682a58137c74,
         type: 3}
@@ -1813,7 +1813,7 @@ SceneRoots:
   - {fileID: 7053465193518499216}
   - {fileID: 2829314838758512678}
   - {fileID: 979032247}
+  - {fileID: 591097601}
   - {fileID: 1403273710}
   - {fileID: 1454051971}
   - {fileID: 2560139018952543338}
-  - {fileID: 591097601}
