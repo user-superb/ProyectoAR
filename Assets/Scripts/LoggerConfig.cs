@@ -8,7 +8,13 @@ public static class Logger
     public static bool mostrarExtendidoDesconectando = false;
     public static bool mostrarDesconectando = false;  
     public static bool mostrarResumenDesconectando = true;
+    public static bool mostrarSonido = true;
+    public static bool mostrarSonidoextendido = true;
+    
 
+
+    public static bool mostrarSonidoActivado = true;
+    public static bool mostrarSonidoDesactivado = true;
     // 🔹 Métodos por categoría
     public static void Conectando(string mensaje)
     {
@@ -40,14 +46,27 @@ public static class Logger
             Debug.Log("<color=#FFA500>[ResumenDesconectando]</color> " + mensaje);
     }
 
-    // // 🔹 Errores o advertencias
-    // public static void Error(string mensaje)
-    // {
-    //     Debug.LogError("[ERROR] " + mensaje);
-    // }
 
-    // public static void Warning(string mensaje)
-    // {
-    //     Debug.LogWarning("[ADVERTENCIA] " + mensaje);
-    // }
+    public static void Sonido(string mensaje)
+    {
+        if (mostrarSonido)
+            Debug.Log("<color=#00FF7F>[Sonido]</color> " + mensaje);
+    }
+
+    public static void SonidoExtendido(string mensaje)
+    {
+        if (mostrarSonidoextendido)
+            Debug.Log("<color=#1E90FF>[Sonidoextendido]</color> " + mensaje);
+    }
+
+    // 🔹 Errores o advertencias
+    public static void Error(string mensaje)
+    {
+        Debug.LogError("[ERROR] " + mensaje);
+    }
+
+    public static void Warning(string mensaje)
+    {
+        Debug.LogWarning("[ADVERTENCIA] " + mensaje);
+    }
 }
