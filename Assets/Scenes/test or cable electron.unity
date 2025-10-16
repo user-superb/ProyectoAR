@@ -392,11 +392,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3512027244430792360, guid: e9d3442f9b11ed64fa423076c933faf5,
-        type: 3}
-      propertyPath: MaxDistance
-      value: 0.75
-      objectReference: {fileID: 0}
     - target: {fileID: 3554522526499506383, guid: e9d3442f9b11ed64fa423076c933faf5,
         type: 3}
       propertyPath: m_Name
@@ -924,20 +919,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1214267712239008901, guid: 9932b8b5d0b202145812c113919374cc,
-        type: 3}
-      propertyPath: MaxDistance
-      value: 0.75
-      objectReference: {fileID: 0}
     - target: {fileID: 3554522526499506383, guid: 9932b8b5d0b202145812c113919374cc,
         type: 3}
       propertyPath: m_Name
       value: AND_0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6052855599180496473, guid: 9932b8b5d0b202145812c113919374cc,
-        type: 3}
-      propertyPath: MaxDistance
-      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 7774282624429526974, guid: 9932b8b5d0b202145812c113919374cc,
         type: 3}
@@ -1584,13 +1569,23 @@ PrefabInstance:
     - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: MaxDistance
-      value: 0.75
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
+        type: 3}
+      propertyPath: MinDistance
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 2d5ee711ffd2fb040bce0091ff71bdef, type: 3}
+    - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8919636977172489645, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_Name
@@ -2315,13 +2310,23 @@ PrefabInstance:
     - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: MaxDistance
-      value: 0.75
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
+        type: 3}
+      propertyPath: MinDistance
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 2d5ee711ffd2fb040bce0091ff71bdef, type: 3}
+    - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8919636977172489645, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_Name
@@ -2345,20 +2350,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 730304923027757939, guid: 3599a8085c812ad4fbe3a1dad0d32691,
-        type: 3}
-      propertyPath: MaxDistance
-      value: 0.75
-      objectReference: {fileID: 0}
     - target: {fileID: 3554522526499506383, guid: 3599a8085c812ad4fbe3a1dad0d32691,
         type: 3}
       propertyPath: m_Name
       value: OR_0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6317070222734401620, guid: 3599a8085c812ad4fbe3a1dad0d32691,
-        type: 3}
-      propertyPath: MaxDistance
-      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 7774282624429526974, guid: 3599a8085c812ad4fbe3a1dad0d32691,
         type: 3}
@@ -4071,13 +4066,23 @@ PrefabInstance:
     - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
         type: 3}
       propertyPath: MaxDistance
-      value: 0.75
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
+        type: 3}
+      propertyPath: MinDistance
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 2d5ee711ffd2fb040bce0091ff71bdef, type: 3}
+    - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5115149333777687968, guid: 9fcddf5cc05629b479059c335e3f9e82,
         type: 3}
       propertyPath: m_Name
@@ -4219,16 +4224,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: XOR_0
       objectReference: {fileID: 0}
-    - target: {fileID: 7289231241426275743, guid: d848be1e3b4d9b44c8a175d66215b22b,
-        type: 3}
-      propertyPath: MaxDistance
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 7511148238675813239, guid: d848be1e3b4d9b44c8a175d66215b22b,
-        type: 3}
-      propertyPath: MaxDistance
-      value: 0.75
-      objectReference: {fileID: 0}
     - target: {fileID: 7774282624429526974, guid: d848be1e3b4d9b44c8a175d66215b22b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4350,13 +4345,23 @@ PrefabInstance:
     - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: MaxDistance
-      value: 0.75
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
+        type: 3}
+      propertyPath: MinDistance
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 2d5ee711ffd2fb040bce0091ff71bdef, type: 3}
+    - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8919636977172489645, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_Name
@@ -4622,13 +4627,23 @@ PrefabInstance:
     - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
         type: 3}
       propertyPath: MaxDistance
-      value: 0.75
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
+        type: 3}
+      propertyPath: MinDistance
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 2d5ee711ffd2fb040bce0091ff71bdef, type: 3}
+    - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5115149333777687968, guid: 9fcddf5cc05629b479059c335e3f9e82,
         type: 3}
       propertyPath: m_Name
@@ -4706,11 +4721,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
-        type: 3}
-      propertyPath: MaxDistance
-      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 6366882943118401446, guid: 9fcddf5cc05629b479059c335e3f9e82,
         type: 3}
@@ -4999,13 +5009,23 @@ PrefabInstance:
     - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
         type: 3}
       propertyPath: MaxDistance
-      value: 0.75
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
+        type: 3}
+      propertyPath: MinDistance
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 2d5ee711ffd2fb040bce0091ff71bdef, type: 3}
+    - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5115149333777687968, guid: 9fcddf5cc05629b479059c335e3f9e82,
         type: 3}
       propertyPath: m_Name
@@ -5092,13 +5112,23 @@ PrefabInstance:
     - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: MaxDistance
-      value: 0.75
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
+        type: 3}
+      propertyPath: MinDistance
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 2d5ee711ffd2fb040bce0091ff71bdef, type: 3}
+    - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8919636977172489645, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_Name
@@ -5288,13 +5318,23 @@ PrefabInstance:
     - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: MaxDistance
-      value: 0.75
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
+        type: 3}
+      propertyPath: MinDistance
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 2d5ee711ffd2fb040bce0091ff71bdef, type: 3}
+    - target: {fileID: 8800565693476256714, guid: 5325e29776f6a794d847f68888a28d46,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8919636977172489645, guid: 5325e29776f6a794d847f68888a28d46,
         type: 3}
       propertyPath: m_Name
@@ -5705,13 +5745,23 @@ PrefabInstance:
     - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
         type: 3}
       propertyPath: MaxDistance
-      value: 0.75
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
+        type: 3}
+      propertyPath: MinDistance
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 2d5ee711ffd2fb040bce0091ff71bdef, type: 3}
+    - target: {fileID: 4651695364475103036, guid: 9fcddf5cc05629b479059c335e3f9e82,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5115149333777687968, guid: 9fcddf5cc05629b479059c335e3f9e82,
         type: 3}
       propertyPath: m_Name
