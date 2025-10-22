@@ -575,7 +575,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: d96b7ab6b96ba1f4a96399b084589179, type: 3}
+      objectReference: {fileID: 8300000, guid: aae7928ac37955e43b697e349bf3356b, type: 3}
     - target: {fileID: 7408951807519827232, guid: 1b7d145d278ca344ea96530087879100,
         type: 3}
       propertyPath: MaxDistance
@@ -585,7 +585,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d96b7ab6b96ba1f4a96399b084589179, type: 3}
+      objectReference: {fileID: 8300000, guid: aae7928ac37955e43b697e349bf3356b, type: 3}
     - target: {fileID: 7408951807519827232, guid: 1b7d145d278ca344ea96530087879100,
         type: 3}
       propertyPath: DopplerLevel
