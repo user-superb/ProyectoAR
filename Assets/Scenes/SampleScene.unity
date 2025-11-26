@@ -119,6 +119,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &571789043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 571789044}
+  m_Layer: 0
+  m_Name: Nothing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &571789044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571789043}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4597745, y: 1.3621604, z: -0.05506482}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &702413256
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,19 +735,52 @@ MonoBehaviour:
     imagePrefab: {fileID: 3554522526499506383, guid: d6d89ac235163ac47b6c81680fb2a129,
       type: 3}
   - imageGuid: d44e7bca-90e5-4439-89d9-47c1fa580fc5
-    imagePrefab: {fileID: 3554522526499506383, guid: 9932b8b5d0b202145812c113919374cc,
+    imagePrefab: {fileID: 980593624791564233, guid: a8b671b13e48fa14bb01570dde6a53d3,
       type: 3}
   - imageGuid: e77b5b49-ecde-4400-898a-17dff03960b4
-    imagePrefab: {fileID: 3554522526499506383, guid: e9d3442f9b11ed64fa423076c933faf5,
+    imagePrefab: {fileID: 8465261506050223129, guid: 0732c4f00e0eb224082bfcd5c3484fce,
       type: 3}
   - imageGuid: 32f4c643-db32-4e99-9730-dc6c7ce06a61
-    imagePrefab: {fileID: 3554522526499506383, guid: 3599a8085c812ad4fbe3a1dad0d32691,
+    imagePrefab: {fileID: 410133693377221973, guid: 95125a63a845c984ca1b31ccf11523fe,
       type: 3}
   - imageGuid: 26ba2ff0-27cb-45c6-a057-c519181adc6a
-    imagePrefab: {fileID: 3554522526499506383, guid: d848be1e3b4d9b44c8a175d66215b22b,
+    imagePrefab: {fileID: 4158574837736440598, guid: a1858156abdd22c4bb057170c443c4a5,
       type: 3}
-  - imageGuid: d1c96d1a-35d6-4d83-a364-4d73d0fcae3d
-    imagePrefab: {fileID: 3554522526499506383, guid: 9932b8b5d0b202145812c113919374cc,
+  - imageGuid: 2f20b4c9-95cd-4bc6-a52f-bf8a198c5f42
+    imagePrefab: {fileID: 980593624791564233, guid: a8b671b13e48fa14bb01570dde6a53d3,
+      type: 3}
+  - imageGuid: c710db97-8784-467a-a0f0-695445221741
+    imagePrefab: {fileID: 8465261506050223129, guid: 0732c4f00e0eb224082bfcd5c3484fce,
+      type: 3}
+  - imageGuid: 104a09a8-c3e1-481a-bf9f-e48868c40eba
+    imagePrefab: {fileID: 410133693377221973, guid: 95125a63a845c984ca1b31ccf11523fe,
+      type: 3}
+  - imageGuid: a1f68a0d-365a-495c-bda2-c9ec06462e2c
+    imagePrefab: {fileID: 4158574837736440598, guid: a1858156abdd22c4bb057170c443c4a5,
+      type: 3}
+  - imageGuid: a15ec05b-6bd5-45b4-b910-ca85d33fae2a
+    imagePrefab: {fileID: 980593624791564233, guid: a8b671b13e48fa14bb01570dde6a53d3,
+      type: 3}
+  - imageGuid: 7452c40f-5054-490d-bdde-1c235edb435b
+    imagePrefab: {fileID: 8465261506050223129, guid: 0732c4f00e0eb224082bfcd5c3484fce,
+      type: 3}
+  - imageGuid: e0f5e276-6b92-4a67-9ac9-9ffef449110f
+    imagePrefab: {fileID: 410133693377221973, guid: 95125a63a845c984ca1b31ccf11523fe,
+      type: 3}
+  - imageGuid: 46f5d552-60e9-4575-9aa4-37a7484bcb74
+    imagePrefab: {fileID: 4158574837736440598, guid: a1858156abdd22c4bb057170c443c4a5,
+      type: 3}
+  - imageGuid: e184e141-d247-46d5-b9b6-dcc5279aae4b
+    imagePrefab: {fileID: 1656963077679479298, guid: 7ef7581fd17e5aa489ad3c4dc4d31f3c,
+      type: 3}
+  - imageGuid: c72e16a9-eeff-404b-88ca-2dd8d902741b
+    imagePrefab: {fileID: 1656963077679479298, guid: 7ef7581fd17e5aa489ad3c4dc4d31f3c,
+      type: 3}
+  - imageGuid: 4292ef3f-8794-4854-8eed-b9174df5e177
+    imagePrefab: {fileID: 1656963077679479298, guid: 7ef7581fd17e5aa489ad3c4dc4d31f3c,
+      type: 3}
+  - imageGuid: f3c31a9e-ebf0-4c64-8db9-9ec8bed05f7f
+    imagePrefab: {fileID: 1656963077679479298, guid: 7ef7581fd17e5aa489ad3c4dc4d31f3c,
       type: 3}
   m_ImageLibrary: {fileID: 11400000, guid: 165b7b1d99816b249ad300727fdfaa99, type: 2}
 --- !u!114 &1969498406
@@ -731,7 +795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b82a9931713ad2747b2626d8c668eb89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  managerDeListeners: {fileID: 1969498407}
+  IN: {fileID: 0}
 --- !u!114 &1969498407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -802,3 +866,4 @@ SceneRoots:
   - {fileID: 1075000276}
   - {fileID: 1969679237}
   - {fileID: 1969498403}
+  - {fileID: 571789044}

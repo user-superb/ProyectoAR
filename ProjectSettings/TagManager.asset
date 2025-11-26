@@ -6,6 +6,7 @@ TagManager:
   tags:
   - entrada
   - ZonaIn
+  - ZonaOut
   layers:
   - Default
   - TransparentFX
@@ -14,11 +15,11 @@ TagManager:
   - Water
   - UI
   - Zonas
+  - CapsuleOnly
   - 
   - 
-  - 
-  - 
-  - 
+  - input
+  - output
   - 
   - 
   - 
